@@ -1,0 +1,9 @@
+D:\Anuraag_296\Lab1\RegForm\RegForm\bin\Debug\RegForm.exe.config
+D:\Anuraag_296\Lab1\RegForm\RegForm\bin\Debug\RegForm.exe
+D:\Anuraag_296\Lab1\RegForm\RegForm\bin\Debug\RegForm.pdb
+D:\Anuraag_296\Lab1\RegForm\RegForm\obj\Debug\RegForm.csprojResolveAssemblyReference.cache
+D:\Anuraag_296\Lab1\RegForm\RegForm\obj\Debug\RegForm.Form1.resources
+D:\Anuraag_296\Lab1\RegForm\RegForm\obj\Debug\RegForm.Properties.Resources.resources
+D:\Anuraag_296\Lab1\RegForm\RegForm\obj\Debug\RegForm.csproj.GenerateResource.Cache
+D:\Anuraag_296\Lab1\RegForm\RegForm\obj\Debug\RegForm.exe
+D:\Anuraag_296\Lab1\RegForm\RegForm\obj\Debug\RegForm.pdb

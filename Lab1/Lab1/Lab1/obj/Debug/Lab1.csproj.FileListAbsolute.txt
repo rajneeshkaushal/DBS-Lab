@@ -1,0 +1,9 @@
+D:\Anuraag_296\Lab1\Lab1\Lab1\bin\Debug\Lab1.exe.config
+D:\Anuraag_296\Lab1\Lab1\Lab1\bin\Debug\Lab1.exe
+D:\Anuraag_296\Lab1\Lab1\Lab1\bin\Debug\Lab1.pdb
+D:\Anuraag_296\Lab1\Lab1\Lab1\obj\Debug\Lab1.csprojResolveAssemblyReference.cache
+D:\Anuraag_296\Lab1\Lab1\Lab1\obj\Debug\Lab1.Form1.resources
+D:\Anuraag_296\Lab1\Lab1\Lab1\obj\Debug\Lab1.Properties.Resources.resources
+D:\Anuraag_296\Lab1\Lab1\Lab1\obj\Debug\Lab1.csproj.GenerateResource.Cache
+D:\Anuraag_296\Lab1\Lab1\Lab1\obj\Debug\Lab1.exe
+D:\Anuraag_296\Lab1\Lab1\Lab1\obj\Debug\Lab1.pdb
