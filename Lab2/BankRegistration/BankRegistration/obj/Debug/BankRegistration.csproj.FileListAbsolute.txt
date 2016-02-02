@@ -1,0 +1,11 @@
+D:\Anuraag_296\Lab2\BankRegistration\BankRegistration\bin\Debug\BankRegistration.exe.config
+D:\Anuraag_296\Lab2\BankRegistration\BankRegistration\bin\Debug\BankRegistration.exe
+D:\Anuraag_296\Lab2\BankRegistration\BankRegistration\bin\Debug\BankRegistration.pdb
+D:\Anuraag_296\Lab2\BankRegistration\BankRegistration\obj\Debug\BankRegistration.csprojResolveAssemblyReference.cache
+D:\Anuraag_296\Lab2\BankRegistration\BankRegistration\obj\Debug\BankRegistration.Form1.resources
+D:\Anuraag_296\Lab2\BankRegistration\BankRegistration\obj\Debug\BankRegistration.Properties.Resources.resources
+D:\Anuraag_296\Lab2\BankRegistration\BankRegistration\obj\Debug\BankRegistration.csproj.GenerateResource.Cache
+D:\Anuraag_296\Lab2\BankRegistration\BankRegistration\obj\Debug\BankRegistration.exe
+D:\Anuraag_296\Lab2\BankRegistration\BankRegistration\obj\Debug\BankRegistration.pdb
+D:\Anuraag_296\Lab2\BankRegistration\BankRegistration\obj\Debug\BankRegistration.Details.resources
+D:\Anuraag_296\Lab2\BankRegistration\BankRegistration\obj\Debug\BankRegistration.Form3.resources
