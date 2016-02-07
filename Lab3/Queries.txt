@@ -1,0 +1,72 @@
+create table PERSON296(driver_id# varchar(6),
+                       name varchar(10),
+                       address varchar(10),
+                       primary key (driver_id#));
+
+create table CAR296(regno varchar(10),
+                       model varchar(10),
+                       year numeric(4,0),
+                       primary key (regno));
+
+create table ACCIDENT296(report_number numeric(5,0),
+                       accd_date date,
+                       location varchar(10),
+                       primary key (report_number));
+
+create table OWNS296 (driver_id# varchar(6),
+                   regno varchar(10),
+                   primary key(driver_id#,regno),
+                   foreign key (driver_id#) references PERSON296(driver_id#),
+                   foreign key (regno) references CAR296(regno));
+
+create table PARTICIPATED296 (driver_id# varchar(6),
+                           regno varchar(10),
+                           report_number NUMERIC(5,0),
+                           damage_amt NUMERIC(5,0),
+                           primary key (driver_id#,regno,report_number),
+                           foreign key (driver_id#,regno) references OWNS296(driver_id#,regno),
+                           foreign key (report_number) references ACCIDENT296(report_number));
+
+insert into PERSON296 values ('KA1234','Ram','Manipal');
+insert into PERSON296 values ('KA1224','Rahul','Manipal');
+insert into PERSON296 values ('KA1324','Hari','Udupi');
+insert into PERSON296 values ('KA1424','Shyam','Udupi');
+insert into PERSON296 values ('KA1434','Raghu','Mangalore');
+
+insert into car296 values ('KA-01-2343','car',2006);
+insert into car296 values ('KA-01-4343','sedan',2008);
+insert into car296 values ('KA-01-4313','suv',2008);
+insert into car296 values ('KA-03-1313','auto',2010);
+insert into car296 values ('KA-04-1303','car',2011);
+
+insert into ACCIDENT296 values(12, TO_DATE('02/02/2016','dd/mm/yyyy'),'Manipal');
+insert into ACCIDENT296 values(13, TO_DATE('01/02/2016','dd/mm/yyyy'),'Udupi);
+insert into ACCIDENT296 values(14, TO_DATE('01/02/2016','dd/mm/yyyy'),'Manipal);
+insert into ACCIDENT296 values(15, TO_DATE('31/01/2016','dd/mm/yyyy'),'Manipal);
+insert into ACCIDENT296 values(16, TO_DATE('30/01/2016','dd/mm/yyyy'),'Mangalore');
+insert into ACCIDENT296 values(17, TO_DATE('30/01/2016','dd/mm/yyyy'),'Mangalore');
+insert into ACCIDENT296 values(18, TO_DATE('30/12/2015','dd/mm/yyyy'),'Manipal');
+insert into ACCIDENT296 values(19, TO_DATE('29/12/2015','dd/mm/yyyy'),'Udupi');
+
+insert into OWNS296 values('KA1234', 'KA-01-2343');
+insert into OWNS296 values('KA1224', 'KA-01-4343');
+insert into OWNS296 values('KA1324', 'KA-01-4313');
+insert into OWNS296 values('KA1424', 'KA-03-1313');
+insert into OWNS296 values('KA1434', 'KA-04-1303');
+
+insert into PARTICIPATED296 values('KA1234', 'KA-01-2343',12,16500);
+insert into PARTICIPATED296 values('KA1434', 'KA-04-1303',13,20000);
+insert into PARTICIPATED296 values('KA1424', 'KA-03-1313',14,13500);
+insert into PARTICIPATED296 values('KA1434', 'KA-04-1303',15,20000);
+insert into PARTICIPATED296 values('KA1324', 'KA-01-4313',16,23575);
+insert into PARTICIPATED296 values('KA1434', 'KA-04-1303',12,20000);
+insert into PARTICIPATED296 values('KA1424', 'KA-03-1313',17,17500);
+
+update PARTICIPATED296 
+	set damage_amt = 25000 
+	where report_number = 12 and regno = 'KA-01-2343';
+
+delete from ACCIDENT296 where accd_date like '%15';
+
+alter table car296 drop column year;
+alter table car296 add year int;
